@@ -3,7 +3,7 @@ def my_collect(array)
   return_array = []
   while i < array.length
     #return_array << yield array[i]
-    puts "hi"
+    puts array[i]
     i = i + 1
   end
   return_array
