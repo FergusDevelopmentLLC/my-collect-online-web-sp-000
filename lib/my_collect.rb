@@ -6,6 +6,7 @@ def my_collect(array)
     return_array.push(array[i])
     i += 1
   end
+  puts return_array.inspect
   return_array
 end
 
