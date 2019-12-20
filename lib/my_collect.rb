@@ -4,7 +4,8 @@ def my_collect(array)
   while i < array.length
     #return_array << yield array[i]
     #return_array.push(array[i])
-    puts yield array[i]
+    #puts yield array[i]
+    return_array << yield array[i]
     i += 1
   end
   puts return_array.inspect
