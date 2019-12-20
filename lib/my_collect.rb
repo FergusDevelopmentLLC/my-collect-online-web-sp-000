@@ -9,4 +9,6 @@ def my_collect(array)
 end
 
 array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-puts my_collect(array) { |name| name.split(" ").first }
+my_collect(array) do |name|
+  name.split(" ").first
+end
